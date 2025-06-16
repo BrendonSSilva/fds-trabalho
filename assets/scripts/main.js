@@ -1,5 +1,5 @@
-function qs(selector) {
-  return document.querySelector(selector);
+function qs(param) {
+  return document.querySelector(param);
 }
 
 const button = qs('.message');
