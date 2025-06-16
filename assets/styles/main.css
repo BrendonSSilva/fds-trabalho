@@ -77,7 +77,7 @@ h3 {
 
 #text {
   margin: 0 auto;
-  width: 400px;
+  width: 500px;
   text-align: left !important;
   border: 2px solid #000;
   border-radius: 10px;
@@ -146,6 +146,11 @@ table img {
 }
 
 @media (max-width: 600px) {
+
+  /* about */
+  #text{
+    width: auto;
+  }
 
   /* hobbies */
   #hobbies ul {
